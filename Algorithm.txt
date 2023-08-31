@@ -1,0 +1,36 @@
+The algorithm for the given code is as follows:
+
+1. Create a class called "Experience" with the following attributes:
+   - company
+   - job_title
+   - start_date
+   - end_date
+   Define an __init__ method to initialize these attributes.
+   Define a method called "display_exper" to display the experience details.
+
+2. Create a class called "Education" with the following attributes:
+   - degree
+   - institution
+   - completion_date
+   Define an __init__ method to initialize these attributes.
+   Define a method called "display_education" to display the education details.
+
+3. Create a class called "Skill" with the following attributes:
+   - skill
+   - percentage
+   Define an __init__ method to initialize these attributes.
+   Define a method called "dis_skill" to display the skill details.
+
+4. Create a class called "CV" with the following attributes:
+   - experience (list to store Experience objects)
+   - education (list to store Education objects)
+   - skill (list to store Skill objects)
+   Define an __init__ method to initialize these attributes.
+
+5. Implement methods in the "CV" class to perform the following actions:
+   - add_exper(): Ask the user to input the details of their experience, create an Experience object with these details, and append it to the "experience" list.
+   - add_edu(): Ask the user to input the details of their education, create an Education object with these details, and append it to the "education" list.
+   - add_skill(): Ask the user to input the details of their skill, create a Skill object with these details, and append it to the "skill" list.
+   - cv_dis(): Display the CV details by iterating through the "experience", "education", and "skill" lists and calling the respective display methods.
+
+6. In the main section of the code, create an instance of the "CV" class and call the add_exper(), add_edu(), add_skill(), and cv_dis() methods to create and display the CV.
